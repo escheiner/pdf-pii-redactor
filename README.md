@@ -17,8 +17,8 @@ If you are familiar with python dependency management, I highly recommend uv by 
 ### Step 1: Clone the repository
 
 ```bash
-git clone git@github.com:brdhungashi/pdf-pii-redactor.git
-cd git@github.com:brdhungashi/pdf-pii-redactor.git
+git clone git@github.com:brdhunga/pdf-pii-redactor.git
+cd git@github.com:brdhunga/pdf-pii-redactor.git
 ```
 
 ### Step 2: Create virtualenv
@@ -58,4 +58,11 @@ In the shell, run:
 python3 -m spacy download en_core_web_md 
 ```
 
+### Step 6: Sample Usage
+In the shell, run:
+```
+python3 redactor.py test.pdf 
+```
+
+This will produce a file called test-recreate.pdf in the same directory
 
